@@ -1,0 +1,24 @@
+.form .title{
+    position: relative;
+    padding-left:0.2em;
+    padding-right: 0.2em;
+    left: 300px;
+    top: 30px;
+    display: inline-block;
+    font-size: 2em;
+    max-width: 25em;
+    min-width: 200px;
+    border-radius: 10px;
+    outline: 0px solid transparent;
+    background-color: darkgray;
+}
+.form .editor{
+    position: relative;
+    left: 270px;
+    top: 50px;
+    height: 500px;
+    width: 75%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
