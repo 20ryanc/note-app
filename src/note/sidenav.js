@@ -14,6 +14,11 @@ class MySidenavbar extends React.Component {
   btnPush = (s) => {
     this.props.setnumstate(s);
   }
+  componentDidUpdate(){
+    if(this.props.arr.length == 0){
+      this.newbtn();
+    }
+  }
   render() {
     const children = [];
     for (let i = 0; i < this.props.numbtn(); i++) {
